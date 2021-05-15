@@ -16,8 +16,11 @@ public class Athlete {
 
     public static void main(String[] args) {
     	Athlete paola = new Athlete("paola", 14); 
-    	
+    	paola.nextBibNumber = 15;
     	Athlete alfredo = new Athlete("alfredo", 18);
+    	alfredo.nextBibNumber = 19;
+    	System.out.println(paola.name + "'s bib number is "+ paola.nextBibNumber + " and the location is " + paola.raceLocation);
+    	System.out.println(alfredo.name + "'s bib number is "+ alfredo.nextBibNumber + " and the location is "+ alfredo.raceLocation);
         //create two athletes
         //print their names, bibNumbers, and the location of their race. 
     }
